@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://be-kuliner-indo-production.up.railway.app/api";
 
 const handleResponse = async (response) => {
   if (!response.ok) {
