@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #a2a29d !important;
+}
+
+#root {
+  background-color: #a2a29d !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
