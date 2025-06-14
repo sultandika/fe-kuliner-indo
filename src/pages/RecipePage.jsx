@@ -10,7 +10,7 @@ const RecipePage = () => {
     const fetchFood = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/foods/${foodId}`
+          `https://be-kuliner-indo-production.up.railway.app/api/foods/${foodId}`
         );
         if (!response.ok) {
           throw new Error("Resep tidak ditemukan");
