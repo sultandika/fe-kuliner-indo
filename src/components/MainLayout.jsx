@@ -12,7 +12,7 @@ const MainLayout = () => {
         <div className="relative bg-[#F5F5DC]/80 backdrop-blur-md rounded-xl shadow-2xl p-8 text-center max-w-4xl mx-4">
           <Link to="/">
             <h1 className="text-4xl sm:text-6xl font-extrabold text-green-900 tracking-tight cursor-pointer">
-              Pesona Kuliner Nusantara
+              Nusa Rasa
             </h1>
           </Link>
           <p className="text-md sm:text-lg text-gray-700 mt-4 max-w-2xl mx-auto">
